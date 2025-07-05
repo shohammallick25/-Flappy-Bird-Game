@@ -5,9 +5,21 @@
         <meta name="viewport", content="width=device-width, initial-scale=1.0">
         <title>Flappy Bird</title>
         <link rel="stylesheet" href="flappybird.css">
+        
+        <link rel="manifest" href="manifest.json">
+
         <script src="flappybird.js"></script>
     </head>
     <body>
         <canvas id="board"></canvas>
+
+        <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(reg => console.log("Service Worker registered!", reg))
+      .catch(err => console.error("Service Worker failed: ", err));
+  }
+</script>
+        
     </body>
 </html>
