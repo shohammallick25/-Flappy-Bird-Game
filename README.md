@@ -1,7 +1,8 @@
-# 🐦 Flappy Bird Clone
+# 🐦 Flappy Bird 
 
-A simple **Flappy Bird** game clone built with HTML, CSS, and JavaScript.  
+A simple **Flappy Bird** game built with HTML, CSS, and JavaScript.  
 Fly the bird through pipes without crashing — test your reflexes!
+![image](https://github.com/user-attachments/assets/88ca0496-c5a9-4b75-a97b-5722e9c22a66)
 
 ## 🚀 Demo
 👉 [Play Now](https://YOUR_USERNAME.github.io/flappy-bird/)  
